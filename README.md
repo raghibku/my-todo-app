@@ -1,8 +1,32 @@
-# React + Vite
+# ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a ToDo app built using React and Tailwind CSS. It allows users to manage their tasks, including adding, deleting, editing, marking as complete, and organizing tasks by priority. The app utilizes the browser's local storage to persist the user's tasks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add tasks
+- Delete tasks
+- Edit tasks
+- Mark tasks as complete
+- Organize tasks by priority (low, medium, high)
+- Store tasks in the browser's local storage
+
+## Demo
+
+[Link to live demo](https://leafy-fenglisu-8d7e7b.netlify.app)
+
+## Installation
+
+To run this app locally, follow these steps:
+
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm run dev` to start the development server.
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+
+
